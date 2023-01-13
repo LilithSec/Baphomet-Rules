@@ -7,3 +7,4 @@ vars:
   rfc3164_syslog_id: "^(?<LOG_SRC_HOST>[A-Za-z.0-1]+)\\ [== rfc3164_syslog_log_src
   ==]\\:\\ "
   rfc5424_syslog_date: ""
+  fastlog_chomp: "^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d\\-\\d\\d\\:\\d\\d\\:\\d\\d\\.\\d+"
